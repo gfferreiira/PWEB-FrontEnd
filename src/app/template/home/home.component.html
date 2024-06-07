@@ -1,0 +1,67 @@
+<h1> Seja Bem Vindo ao curso de Angular</h1>
+
+<h4 class="text-danger">{{anuncio}}</h4>
+
+<div class="row">
+  <div class="col">
+
+<app-card-produto
+[foto]="foto"
+[nomeProduto]="nomeProduto"
+[promocao]="promocao"
+[idProduto]="idProduto"
+[dataValidade]="dataValidade"
+[precoProduto]="precoProduto"
+
+></app-card-produto>
+
+  </div>
+
+  <div class="col">
+    <app-card-produto
+    foto="https://www.vounajanela.com/wp-content/uploads/2019/08/budapeste-4.jpg"
+    nomeProduto="Viagem a budapest"
+    [promocao]="false"
+    [idProduto]="15"
+    dataValidade="2021-12-31"
+    [precoProduto]="5434.0"
+  ></app-card-produto>
+
+  </div>
+
+  <div class="col">
+    <app-card-produto
+    foto="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    nomeProduto="Curso de JavaScript"
+    [promocao]="false"
+    [idProduto]="15"
+    dataValidade="2021-12-31"
+    [precoProduto]="5434.0"
+  ></app-card-produto>
+
+  </div>
+
+  <div class="col">
+    <app-card-produto
+    foto="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png"
+    nomeProduto="Curso de C#"
+    [promocao]="false"
+    [idProduto]="15"
+    dataValidade="2021-12-31"
+    [precoProduto]="5434.0"
+  ></app-card-produto>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <img class="img-fluid"  src="/assets/img/logo_etec_pb.png" alt="">
+  </div>
+  <div class="col">
+    <img class="img-fluid" src="/assets/img/crud.png" alt="">
+  </div>
+
+  </div>
+
+

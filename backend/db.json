@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {
+      "nome": "Phyton",
+      "validade": "2024-08-16",
+      "precoProduto": 1200,
+      "id": 2
+    }
+  ]
+}
